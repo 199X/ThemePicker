@@ -67,6 +67,14 @@ function ThemePickerInit() {
 		var str = this.value;
 		$("#TextArea").val(str);
 	});
+	
+	/* SETUP INITIAL COLORS */
+	AddRow('#68a8d8', '#68a8d8')
+	AddRow('#80d890', '#80d890')
+	AddRow('#f0f0f0', '#f0f0f0')
+	AddRow('#889090', '#889090')
+	AddRow('#101010', '#101010')
+	/* */
 }
 
 function StrToColors(str) {
