@@ -1,0 +1,44 @@
+* {
+	font-family: "Helvetica";
+	font-size: 16px;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+textarea {
+	resize: none;
+}
+
+#ImportExport {
+	margin: 16px;
+}
+
+table {
+	border-collapse: collapse;
+	text-align: center;
+}
+
+td {
+	vertical-align: top;
+}
+
+#ControlPanel {
+	width: auto;
+}
+
+th, td {
+	border: 1px solid black;
+	width: 25%;
+	padding: 4px;
+}
+
+#ColorList {
+	width: 100%;
+}
+
+#TextArea, #PreMade, #SaveBtn, #LoadBtn {
+	width: 100%;
+}

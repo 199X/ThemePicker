@@ -1,0 +1,48 @@
+<html>
+	<head>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+		<script src="ThemePicker.js"></script>
+		<link rel="stylesheet" type="text/css" href="ThemePicker.css">
+		<link rel="icon" type="image/png" href="ThemePickerIcon.png">
+	</head>
+	<body onload="ThemePickerInit();">
+		<table id="ControlPanel">
+			<tr>
+				<td>
+					<img id="BeforePic" src="ThemePicker.png">
+				</td>
+				<td>
+					<img id="AfterPic" src="ThemePicker.png">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<div id="SaveLoad">
+						<table id="ColorList">
+							<tr>
+								<th>Select</th>
+								<th>From</th>
+								<th>To</th>
+								<th><input type="button" id="AddRow" value="Add Color"></th>
+							</tr>
+						</table>
+					</div>
+				</td>
+				<td>					
+					<div>
+						<textarea id="TextArea" cols=24 rows=5></textarea>
+						<select id="PreMade">
+							<option value="">[Premade]</option>
+						</select>
+					</div>
+					<div>
+						<input type="button" id="SaveBtn" value="Save to Text">
+					</div>
+					<div>
+						<input type="button" id="LoadBtn" value="Load from Text">
+					</div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>
